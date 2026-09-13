@@ -42,7 +42,9 @@ that means something well before the bank does.
 
 ## Numbers so far
 
-Pre-season. No bets have been placed yet — see `reports/current-status.md`.
+The season's already under way, with fixtures this week and every week —
+this pipeline just hasn't placed its first bet yet. See
+`reports/current-status.md` for why, and what's left to set before it does.
 
 ## Asking for something
 
