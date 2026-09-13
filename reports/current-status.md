@@ -1,16 +1,16 @@
-# Current status
+# Matchweek 4 — pending
 
-**Season is live — this pipeline isn't yet.** Pipeline built and methodology
-frozen, including the minimum edge required to take a bet (3 percentage
-points, set 13 September 2026). No bets have been placed on any Premier
-League fixture yet — that's now a matter of the analysts doing the work on
-an upcoming fixture, not a rule left to decide.
+Selected 13 Sep 2026. Not yet placed — prices will update to what was
+actually obtained once bets go on.
 
-| Book | Bank | Placed | Remaining | Balance |
-|---|---|---|---|---|
-| Claude solo | £200 | 0 | 20 | £200 |
-| Codex solo | £200 | 0 | 20 | £200 |
-| Conclusion | £200 | 0 | 20 | £200 |
+| Fixture | Kick-off | Pick | Price | Claude | Codex | Agreed? |
+|---|---|---|---|:---:|:---:|:---:|
+| Coventry City v Brighton | Sun 13 Sep, 14:00 | Draw | 3.90 | ✅ | ✅ | ✅ |
+| Coventry City v Brighton | Sun 13 Sep, 14:00 | BTTS: No | 2.10 | — | ✅ | |
+| Man Utd v Man City | Sun 13 Sep, 16:30 | BTTS: No | 2.625 | ✅ | ✅ | ✅ |
+| Man Utd v Man City | Sun 13 Sep, 16:30 | Man City win | 2.15 | — | ✅ | |
+| Leeds United v Newcastle | Mon 14 Sep, 20:00 | Newcastle win | 3.00 | ✅ | ✅ | ✅ |
+| Leeds United v Newcastle | Mon 14 Sep, 20:00 | BTTS: No | 2.20 | — | ✅ | |
 
-_Last published: not yet — this is the starting line-up, published before
-the first bet rather than after it._
+Rows marked **Agreed** are the conclusion book's bet. Claude's book takes
+only its own ✅ rows; Codex's book takes only its own.
