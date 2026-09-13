@@ -12,7 +12,7 @@ kick-off, so a pick can still change or drop right up to that point.
 | Leeds United v Newcastle | Newcastle win | 2.90 | pending, Mon 20:00 | — |
 | — accumulator, all three legs above | boosted 29.20/1 | **Lost** (dead once Draw lost) | -£10 |
 
-\* Placed as a "2Up&Win – Early Payout" enhanced single, a different
+\* Placed as a "2Up&Win – Early Payout" enhanced single (an accidental app mis-tap, not a deliberate choice), a different
 product from the plain match-odds price the edge was calculated
 against. The accumulator was a discretionary bonus bet permitted by a
 same-day methodology amendment, not itself edge-gated. Full reasoning
