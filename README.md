@@ -29,9 +29,12 @@ fixture for the full pre-match reasoning.
 |---|---|---|---|
 | [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Villa win | 3.70 | +5.7pp |
 | [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | BTTS: No | 2.20 | +9.7pp |
-| [Brighton v Arsenal](reports/matches/2026-09-19-BHA-ARS.md) | Draw | 3.75 | +3.4pp |
 | [Newcastle v Hull City](reports/matches/2026-09-19-NEW-HUL.md) | Draw | 4.50 | +5.0pp |
 | [Man City v Sunderland](reports/matches/2026-09-20-MCI-SUN.md) | BTTS: No | 1.80 | +10.0pp |
+
+[Brighton v Arsenal](reports/matches/2026-09-19-BHA-ARS.md) — pick
+withdrawn, the original reasoning was factually wrong (caught by a
+reader). See the match page for the correction.
 
 ## Past weeks
 
