@@ -4,43 +4,36 @@ Real-money Premier League picks from two independent analysts (Claude,
 Codex) plus whatever they agree on after debating. Not betting advice —
 see [Notice](NOTICE.md). How picks are actually made: [Process](PROCESS.md).
 
-## Matchweek 4 — final, £186 running
+## Running total
 
-### Conclusion book (Claude and Codex agreed) — the only book with real money
-
-| Fixture | Pick | Price obtained | Result | P/L |
-|---|---|---|---|---|
-| Coventry City v Brighton | Draw | 3.70* | **Lost** (Brighton won 5-0) | -£10 |
-| Man Utd v Man City | BTTS: No | 2.60 | **Won** (final 0-1) | +£16 |
-| Leeds United v Newcastle | Newcastle win | 2.90 | **Lost** (Leeds won 4-1) | -£10 |
-| — accumulator, all three legs above | boosted 29.20/1 | **Lost** (dead once Draw lost) | -£10 |
-
-**Net for the gameweek: -£14.** One bet beat the closing price despite
-losing (Newcastle win, +1.2pp CLV) — a reminder that this project treats
-that as the primary signal, not the scoreline, since four bets can't
-separate skill from luck either way.
-
-\* Placed as a "2Up&Win – Early Payout" enhanced single (a mishap while
-placing bets, not a deliberate choice), a different product from the
-plain match-odds price the edge was calculated against. The accumulator
-and its odds boost were part of the same mishap on the boost side, though
-the treble itself was a deliberate bonus bet, permitted by a same-day
-methodology amendment and not itself edge-gated. Full detail in the
-working repo.
-
-### Claude solo book — additional picks beyond the conclusion book
-
-None this gameweek — every pick Claude took, Codex also agreed with, and
-none were staked separately. No real P/L; results would match the
-conclusion book's above.
-
-### Codex solo book — additional picks beyond the conclusion book
-
-| Fixture | Pick | Price | If it had been placed |
+| Book | Real money? | Bank (from £200) | Net so far |
 |---|---|---|---|
-| Coventry City v Brighton | BTTS: No | 2.10 | **Would have won** (Coventry failed to score) |
-| Man Utd v Man City | Man City win | 2.15 | **Would have won** (City won 1-0) |
-| Leeds United v Newcastle | BTTS: No | 2.28 | **Would have lost** (Newcastle scored a 90th-min consolation) |
+| Conclusion (debated) | **Yes — actual stakes** | £186.00 | **-£14.00** |
+| Claude solo | Tracked only, not staked | £196.25 if funded | -£3.75 |
+| Codex solo | Tracked only, not staked | £208.75 if funded | +£8.75 |
 
-Not staked — logged for comparison regardless. On paper, 2 of 3 would
-have won.
+Codex solo leads on paper after Matchweek 4 — but none of that is real
+money yet, only the conclusion book has actual stakes down. Tracked
+figures use the price at selection time; the conclusion book's figure
+uses the price actually obtained. One gameweek settled — nowhere near
+enough to call any of this skill rather than noise.
+
+## Matchweek 5 — provisional, awaiting Codex
+
+Claude's independent analysis is in; Codex is blocked by a usage-quota
+reset until Saturday morning, so nothing below is a real pick yet — no
+conclusion book, no Codex solo book, until that resolves. Click a
+fixture for the full pre-match reasoning.
+
+| Fixture | Pick | Price | Edge (Claude) |
+|---|---|---|---|
+| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Villa win | 3.70 | +5.7pp |
+| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | BTTS: No | 2.20 | +9.7pp |
+| [Brighton v Arsenal](reports/matches/2026-09-19-BHA-ARS.md) | Draw | 3.75 | +3.4pp |
+| [Newcastle v Hull City](reports/matches/2026-09-19-NEW-HUL.md) | Draw | 4.50 | +5.0pp |
+| [Man City v Sunderland](reports/matches/2026-09-20-MCI-SUN.md) | BTTS: No | 1.80 | +10.0pp |
+
+## Past weeks
+
+- [Matchweek 4](reports/matchweek-4.md) — conclusion book -£14, Codex
+  solo +£8.75 on paper
