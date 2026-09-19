@@ -4,6 +4,16 @@ Real-money Premier League picks from two independent analysts (Claude,
 Codex) plus whatever they agree on after debating. Not betting advice —
 see [Notice](NOTICE.md). How picks are actually made: [Process](PROCESS.md).
 
+> **BTTS market paused, 19 September 2026.** Every BTTS "No" pick this
+> gameweek (9 of 9 for Codex, 2 of 2 for Claude) shared the same
+> problem: the analyst's own "No" probability was higher than the
+> market's fair "No" probability, every single time — not independent
+> value-finds, a systematic skew in how both methods estimate expected
+> goals. No new BTTS selection until that's fixed with real scoring
+> data instead of a qualitative guess. Pending BTTS picks below are
+> already staked and settle as normal, but shouldn't be read as
+> verified edges.
+
 ## Running total
 
 | Book | Real money? | Bank (from £200) | Net so far |
