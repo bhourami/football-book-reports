@@ -29,7 +29,7 @@ enough to call any of this skill rather than noise.
 | [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | BTTS: No | 2.25 | **Lost** (-£10) |
 | [Man City v Sunderland](reports/matches/2026-09-20-MCI-SUN.md) | Sun 20 Sep, 14:00 | BTTS: No | 1.70 | pending |
 
-Tottenham 1-3 Aston Villa full time — net **+£18** on this fixture.
+Tottenham 2-3 Aston Villa full time — net **+£18** on this fixture.
 
 Also placed: a **"Bet Builder+" accumulator** (£10, combined price
 1724.91/1) covering all ten markets below, conclusion and Codex-solo
