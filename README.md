@@ -28,8 +28,8 @@ fixture for full reasoning.
 
 | Fixture | Kick-off | Pick | Price | Claude edge | Codex edge |
 |---|---|---|---|---|---|
-| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | Villa win | 3.70 | +5.7pp | +11.4pp |
-| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | BTTS: No | 2.20 | +9.7pp | +12.1pp |
+| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | Villa win | 3.80 | +4.0pp (revised, lineup-checked) | +10.9pp (unrevised) |
+| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | BTTS: No | 2.20 | +7.7pp (revised, lineup-checked) | +12.1pp (unrevised) |
 | [Man City v Sunderland](reports/matches/2026-09-20-MCI-SUN.md) | Sun 20 Sep, 14:00 | BTTS: No | 1.80 | +10.0pp | +6.1pp |
 
 ### Claude solo book — additional picks beyond the conclusion book
