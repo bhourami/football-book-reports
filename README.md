@@ -18,19 +18,22 @@ figures use the price at selection time; the conclusion book's figure
 uses the price actually obtained. One gameweek settled — nowhere near
 enough to call any of this skill rather than noise.
 
-## Matchweek 5 — picks in, lineups still to be checked
+## Matchweek 5 — placed
 
-Codex ran live once its usage quota reset. Picks below are provisional
-until each fixture's lineup check ~1hr before kick-off. Click a
-fixture for full reasoning.
+### Conclusion book (Claude and Codex agreed) — placed, real money
 
-### Conclusion book (Claude and Codex agreed)
+| Fixture | Kick-off | Pick | Price obtained | Result |
+|---|---|---|---|---|
+| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | Villa win | 3.80 | pending |
+| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | BTTS: No | 2.25 | pending |
+| [Man City v Sunderland](reports/matches/2026-09-20-MCI-SUN.md) | Sun 20 Sep, 14:00 | BTTS: No | 1.70 | pending |
 
-| Fixture | Kick-off | Pick | Price | Claude edge | Codex edge |
-|---|---|---|---|---|---|
-| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | Villa win | 3.80 | +4.0pp (revised, lineup-checked) | +10.9pp (unrevised) |
-| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | BTTS: No | 2.20 | +7.7pp (revised, lineup-checked) | +12.1pp (unrevised) |
-| [Man City v Sunderland](reports/matches/2026-09-20-MCI-SUN.md) | Sun 20 Sep, 14:00 | BTTS: No | 1.80 | +10.0pp | +6.1pp |
+Also placed: a **"Bet Builder+" accumulator** (£10, combined price
+1724.91/1) covering all ten markets below, conclusion and Codex-solo
+mixed together. This breaks the accumulator rule set after Matchweek 4
+(an acca may only combine one book's own picks) — recorded honestly as
+a rule violation in the working repo, not folded into either book's
+numbers.
 
 ### Claude solo book — additional picks beyond the conclusion book
 
@@ -43,24 +46,23 @@ this fixture, a genuine difference of view, not a data gap.
 
 ### Codex solo book — additional picks beyond the conclusion book
 
-Two of the original twelve picks were withdrawn as confirmed reasoning
-errors (see below), not just flagged. The rest are kept and **ranked
-best to worst** by how well they hold up against the actual league
-table, not by raw edge size — the two errors both happened to carry
-the largest edges in the book, so "biggest number" turned out to be an
-anti-signal this gameweek, not a confidence signal.
+Ranked best to worst by how well they hold up against the actual
+league table, not by raw edge size. Ranks 6 and 9 (both Fulham-Man Utd
+markets) were dropped by the owner before placing, for sharing the
+same suspect pattern (backing the clearly weaker, winless team) that
+got Leeds-Palace withdrawn outright. Everything else was placed.
 
-| Rank | Fixture | Kick-off | Pick | Price | Edge |
+| Rank | Fixture | Kick-off | Pick | Price obtained | Result |
 |---|---|---|---|---|---|
-| 1 | [Man City v Sunderland](reports/matches/2026-09-20-MCI-SUN.md) | Sun 20 Sep, 14:00 | Man City win | 1.286 | +7.3pp |
-| 2 | [Nottingham Forest v Coventry](reports/matches/2026-09-19-NFO-COV.md) | Sat 19 Sep, 17:30 | BTTS: No | 2.00 | +7.3pp |
-| 3 | [Bournemouth v Liverpool](reports/matches/2026-09-20-BOU-LIV.md) | Sun 20 Sep, 14:00 | Liverpool win | 2.15 | +11.7pp |
-| 4 | [Bournemouth v Liverpool](reports/matches/2026-09-20-BOU-LIV.md) | Sun 20 Sep, 14:00 | BTTS: No | 2.625 | +5.9pp |
-| 5 | [Everton v Ipswich](reports/matches/2026-09-19-EVE-IPS.md) | Sat 19 Sep, 15:00 | BTTS: No | 2.10 | +9.6pp |
-| 6 | [Fulham v Man Utd](reports/matches/2026-09-20-FUL-MUN.md) | Sun 20 Sep, 16:30 | BTTS: No | 2.50 | +3.4pp |
-| 7 | [Leeds v Crystal Palace](reports/matches/2026-09-20-LEE-CRY.md) | Sun 20 Sep, 14:00 | BTTS: No | 2.05 | +3.2pp |
-| 8 | [Everton v Ipswich](reports/matches/2026-09-19-EVE-IPS.md) | Sat 19 Sep, 15:00 | Ipswich win | 4.20 | +3.0pp |
-| 9 | [Fulham v Man Utd](reports/matches/2026-09-20-FUL-MUN.md) | Sun 20 Sep, 16:30 | Fulham win | 3.50 | +5.1pp |
+| 1 | [Man City v Sunderland](reports/matches/2026-09-20-MCI-SUN.md) | Sun 20 Sep, 14:00 | Man City win | 1.30 | pending |
+| 2 | [Nottingham Forest v Coventry](reports/matches/2026-09-19-NFO-COV.md) | Sat 19 Sep, 17:30 | BTTS: No | 1.91 | pending |
+| 3 | [Bournemouth v Liverpool](reports/matches/2026-09-20-BOU-LIV.md) | Sun 20 Sep, 14:00 | Liverpool win | 2.10 | pending |
+| 4 | [Bournemouth v Liverpool](reports/matches/2026-09-20-BOU-LIV.md) | Sun 20 Sep, 14:00 | BTTS: No | 2.70 | pending |
+| 5 | [Everton v Ipswich](reports/matches/2026-09-19-EVE-IPS.md) | Sat 19 Sep, 15:00 | BTTS: No | 2.05 | pending |
+| 6 | ~~Fulham v Man Utd, BTTS: No~~ | Sun 20 Sep, 16:30 | *dropped before placing* | — | — |
+| 7 | [Leeds v Crystal Palace](reports/matches/2026-09-20-LEE-CRY.md) | Sun 20 Sep, 14:00 | BTTS: No | 2.05 | pending |
+| 8 | [Everton v Ipswich](reports/matches/2026-09-19-EVE-IPS.md) | Sat 19 Sep, 15:00 | Ipswich win | 4.20 | pending |
+| 9 | ~~Fulham v Man Utd, Fulham win~~ | Sun 20 Sep, 16:30 | *dropped before placing* | — | — |
 
 **Withdrawn as confirmed reasoning errors, not just flagged:**
 - Brighton v Arsenal, Brighton win + BTTS Yes — rested on "Arsenal's
