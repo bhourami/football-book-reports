@@ -8,10 +8,10 @@ see [Notice](NOTICE.md). How picks are actually made: [Process](PROCESS.md).
 
 | Book | Real money? | Bank (from £200) | Net so far |
 |---|---|---|---|
-| Conclusion (debated) | **Yes — actual stakes** | £186.00 | **-£14.00** |
-| Claude solo | Tracked only, not staked | £196.25 if funded | -£3.75 |
+| Conclusion (debated) | **Yes — actual stakes** | £204.00 | **+£4.00** |
+| Claude solo | Tracked only, not staked | £214.25 if funded | +£14.25 |
 | Codex solo | Tracked only, not staked | £208.75 if funded | +£8.75 |
-| Cross-book accumulators | **Yes — actual stakes** | n/a, own pot | £0 so far (1 pending, £10 staked) |
+| Cross-book accumulators | **Yes — actual stakes** | n/a, own pot | **-£10.00** (dead — BTTS No leg lost) |
 
 Codex solo leads on paper after Matchweek 4 — but none of that is real
 money yet, only the conclusion book has actual stakes down. Tracked
@@ -25,9 +25,11 @@ enough to call any of this skill rather than noise.
 
 | Fixture | Kick-off | Pick | Price obtained | Result |
 |---|---|---|---|---|
-| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | Villa win | 3.80 | pending |
-| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | BTTS: No | 2.25 | pending |
+| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | Villa win | 3.80 | **Won** (+£28) |
+| [Tottenham v Aston Villa](reports/matches/2026-09-19-TOT-AVL.md) | Sat 19 Sep, 12:30 | BTTS: No | 2.25 | **Lost** (-£10) |
 | [Man City v Sunderland](reports/matches/2026-09-20-MCI-SUN.md) | Sun 20 Sep, 14:00 | BTTS: No | 1.70 | pending |
+
+Tottenham 1-3 Aston Villa full time — net **+£18** on this fixture.
 
 Also placed: a **"Bet Builder+" accumulator** (£10, combined price
 1724.91/1) covering all ten markets below, conclusion and Codex-solo
