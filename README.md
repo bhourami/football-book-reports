@@ -42,7 +42,7 @@ bank.
 
 | Fixture | Kick-off | Pick | Price | Edge |
 |---|---|---|---|---|
-| [Newcastle v Hull City](reports/matches/2026-09-19-NEW-HUL.md) | Sat 19 Sep, 15:00 | Draw | 4.50 | +5.0pp |
+| [Newcastle v Hull City](reports/matches/2026-09-19-NEW-HUL.md) | Sat 19 Sep, 15:00 | Draw | 4.333 | +4.1pp |
 
 Codex disagreed here — its own numbers don't clear the threshold on
 this fixture, a genuine difference of view, not a data gap.
@@ -71,7 +71,10 @@ got Leeds-Palace withdrawn outright. Everything else was placed.
 - Brighton v Arsenal, Brighton win + BTTS Yes — rested on "Arsenal's
   defensive crisis," the same reasoning already withdrawn from Claude's
   book this gameweek as factually wrong (Arsenal are 6-0-0 this season
-  with that same absence pattern).
+  with that same absence pattern). Reinforced by the pre-kick-off
+  lineup check: only Saliba was actually out, with Timber and Mosquera
+  both starting — and the market had caught up too, pushing Brighton's
+  win edge negative (-3.6pp) by kick-off.
 - Leeds v Crystal Palace, Palace win (+22.6pp, the largest edge
   recorded anywhere in this project) — confirmed against the live
   table: Leeds are 4th and unbeaten, Palace are 16th with one win in
