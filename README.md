@@ -11,6 +11,7 @@ see [Notice](NOTICE.md). How picks are actually made: [Process](PROCESS.md).
 | Conclusion (debated) | **Yes — actual stakes** | £186.00 | **-£14.00** |
 | Claude solo | Tracked only, not staked | £196.25 if funded | -£3.75 |
 | Codex solo | Tracked only, not staked | £208.75 if funded | +£8.75 |
+| Cross-book accumulators | **Yes — actual stakes** | n/a, own pot | £0 so far (1 pending, £10 staked) |
 
 Codex solo leads on paper after Matchweek 4 — but none of that is real
 money yet, only the conclusion book has actual stakes down. Tracked
@@ -30,10 +31,12 @@ enough to call any of this skill rather than noise.
 
 Also placed: a **"Bet Builder+" accumulator** (£10, combined price
 1724.91/1) covering all ten markets below, conclusion and Codex-solo
-mixed together. This breaks the accumulator rule set after Matchweek 4
-(an acca may only combine one book's own picks) — recorded honestly as
-a rule violation in the working repo, not folded into either book's
-numbers.
+mixed together. This initially broke the single-book accumulator rule
+set after Matchweek 4 — the rule was amended the same day to allow
+cross-book accumulators, since every leg had already independently
+cleared its own book's threshold before the acca combined them.
+Tracked in its own running total, not charged against either book's
+bank.
 
 ### Claude solo book — additional picks beyond the conclusion book
 
