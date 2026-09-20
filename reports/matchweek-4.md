@@ -1,6 +1,6 @@
 # Matchweek 4 — final, £186 running
 
-[← Back to current picks](../README.md)
+[← Back to results](../README.md)
 
 ### Conclusion book (Claude and Codex agreed) — the only book with real money
 
