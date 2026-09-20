@@ -16,18 +16,25 @@ see [Notice](NOTICE.md). How picks are actually made: [Process](PROCESS.md).
 
 ## Running total
 
-| Book | Real money? | Bank (from £200) | Net so far |
-|---|---|---|---|
-| Conclusion (debated) | **Yes — actual stakes** | £204.00 | **+£4.00** |
-| Claude solo | Tracked only, not staked | £214.25 if funded | +£14.25 |
-| Codex solo | Tracked only, not staked | £208.75 if funded | +£8.75 |
-| Cross-book accumulators | **Yes — actual stakes** | n/a, own pot | **-£10.00** (dead — BTTS No leg lost) |
+| Book | Real money? | Bank (from £200) | Settled | Still live |
+|---|---|---|---|---|
+| Conclusion (debated) | **Yes — actual stakes** | £204.00 | **+£4.00** over 6 bets | £10 on 1 bet |
+| Codex solo | **Yes — actual stakes** | £209.59 | **+£9.59** over 3 bets | £40 on 4 bets |
+| Claude solo | Tracked only, never staked | £214.25 if funded | +£14.25 on paper | — |
+| Cross-book accumulators | **Yes — actual stakes** | n/a, own pot | **-£10.00** (dead — BTTS No leg lost) | — |
 
-Codex solo leads on paper after Matchweek 4 — but none of that is real
-money yet, only the conclusion book has actual stakes down. Tracked
-figures use the price at selection time; the conclusion book's figure
-uses the price actually obtained. One gameweek settled — nowhere near
-enough to call any of this skill rather than noise.
+**Correction, 20 September 2026:** this table previously described the
+Codex book as "tracked only, not staked". That was wrong — it has had
+real money through it since Matchweek 5. Its tracked-only figure was
+also stale. Totals are now computed from the ledgers by
+`scripts/totals.py` rather than maintained by hand, which is how the
+drift happened.
+
+Claude solo leads, and it is the one book with nothing staked on it.
+Tracked figures use the price at selection time; the real-money figures
+use the price actually obtained. Two gameweeks in, with most of
+Matchweek 5 still unsettled — nowhere near enough to call any of this
+skill rather than noise, in either direction.
 
 ## Matchweek 5 — placed
 
@@ -70,13 +77,13 @@ got Leeds-Palace withdrawn outright. Everything else was placed.
 | Rank | Fixture | Kick-off | Pick | Price obtained | Result |
 |---|---|---|---|---|---|
 | 1 | [Man City v Sunderland](reports/matches/2026-09-20-MCI-SUN.md) | Sun 20 Sep, 14:00 | Man City win | 1.30 | pending |
-| 2 | [Nottingham Forest v Coventry](reports/matches/2026-09-19-NFO-COV.md) | Sat 19 Sep, 17:30 | BTTS: No | 1.91 | pending |
+| 2 | [Nottingham Forest v Coventry](reports/matches/2026-09-19-NFO-COV.md) | Sat 19 Sep, 17:30 | BTTS: No | 1.91 | **Won** (+£9.09) |
 | 3 | [Bournemouth v Liverpool](reports/matches/2026-09-20-BOU-LIV.md) | Sun 20 Sep, 14:00 | Liverpool win | 2.10 | pending |
 | 4 | [Bournemouth v Liverpool](reports/matches/2026-09-20-BOU-LIV.md) | Sun 20 Sep, 14:00 | BTTS: No | 2.70 | pending |
-| 5 | [Everton v Ipswich](reports/matches/2026-09-19-EVE-IPS.md) | Sat 19 Sep, 15:00 | BTTS: No | 2.05 | pending |
+| 5 | [Everton v Ipswich](reports/matches/2026-09-19-EVE-IPS.md) | Sat 19 Sep, 15:00 | BTTS: No | 2.05 | **Won** (+£10.50) |
 | 6 | ~~Fulham v Man Utd, BTTS: No~~ | Sun 20 Sep, 16:30 | *dropped before placing* | — | — |
 | 7 | [Leeds v Crystal Palace](reports/matches/2026-09-20-LEE-CRY.md) | Sun 20 Sep, 14:00 | BTTS: No | 2.05 | pending |
-| 8 | [Everton v Ipswich](reports/matches/2026-09-19-EVE-IPS.md) | Sat 19 Sep, 15:00 | Ipswich win | 4.20 | pending |
+| 8 | [Everton v Ipswich](reports/matches/2026-09-19-EVE-IPS.md) | Sat 19 Sep, 15:00 | Ipswich win | 4.20 | **Lost** (-£10) |
 | 9 | ~~Fulham v Man Utd, Fulham win~~ | Sun 20 Sep, 16:30 | *dropped before placing* | — | — |
 
 **Withdrawn as confirmed reasoning errors, not just flagged:**
@@ -92,6 +99,26 @@ got Leeds-Palace withdrawn outright. Everything else was placed.
   table: Leeds are 4th and unbeaten, Palace are 16th with one win in
   four. Backing the out-of-form team at a huge edge over an unbeaten
   top-4 side is the same failure pattern as Arsenal, not a genuine find.
+
+**How the withdrawals turned out.** Brighton beat Arsenal 3-0. The
+withdrawn Brighton win would have returned +£20; the withdrawn BTTS Yes
+would have lost. The withdrawal was still correct: it was pulled because
+its stated reason was false, and the result does not make that reason
+true. Arsenal were 6-0-0 with that same absence pattern, and on the day
+Timber and Mosquera both started. Leeds v Palace is still to play.
+
+**And the reverse case, on the same afternoon.** Forest 0-1 Coventry
+settled the BTTS No above as a winner. That pick's stated basis was
+"Coventry have literally 0 goals in 4 league games — the strongest
+empirical anchor of any surviving pick". Coventry scored, away, and won.
+The bet landed only because *Forest* failed to score, which formed no
+part of the reasoning. The bet won and its premise was refuted in the
+same ninety minutes.
+
+Together these two are the clearest illustration this project has
+produced of why outcome and decision quality are recorded separately
+here: one correct decision that lost money, one flawed decision that
+made money, in the same afternoon.
 
 Nine selections here across two gameweeks is still meaningful volume
 for a 20-bet book — a pattern worth watching, not yet a crisis.
