@@ -57,6 +57,15 @@ cleared its own book's threshold before the acca combined them.
 Tracked in its own running total, not charged against either book's
 bank.
 
+**Lineup check, ~1hr before the 14:00 BST kick-offs (20 September):**
+Bournemouth-Liverpool and Man City-Sunderland both confirmed with no
+material team-news surprise on either side — see
+[Bournemouth v Liverpool](reports/matches/2026-09-20-BOU-LIV.md) and
+[Man City v Sunderland](reports/matches/2026-09-20-MCI-SUN.md) for the
+full detail, including a modest favourable price drift on the Man
+City-Sunderland BTTS pick (1.80 → 2.00) that raises both analysts'
+edges further above threshold.
+
 ### Claude solo book — additional picks beyond the conclusion book
 
 | Fixture | Kick-off | Pick | Price | Edge |
@@ -99,6 +108,11 @@ got Leeds-Palace withdrawn outright. Everything else was placed.
   table: Leeds are 4th and unbeaten, Palace are 16th with one win in
   four. Backing the out-of-form team at a huge edge over an unbeaten
   top-4 side is the same failure pattern as Arsenal, not a genuine find.
+  Given extra scrutiny at the pre-kick-off lineup check: Crystal Palace
+  are missing their first-choice striker (Mateta) and their goalkeeper
+  (Henderson), on top of a suspension, and Bet365's price is completely
+  unchanged. Nothing in the confirmed team news makes the case for
+  Palace stronger — decline reinforced, not just repeated.
 
 **How the withdrawals turned out.** Brighton beat Arsenal 3-0. The
 withdrawn Brighton win would have returned +£20; the withdrawn BTTS Yes
