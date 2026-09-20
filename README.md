@@ -90,10 +90,10 @@ got Leeds-Palace withdrawn outright. Everything else was placed.
 | 3 | [Bournemouth v Liverpool](reports/matches/2026-09-20-BOU-LIV.md) | Sun 20 Sep, 14:00 | Liverpool win | 2.10 | pending |
 | 4 | [Bournemouth v Liverpool](reports/matches/2026-09-20-BOU-LIV.md) | Sun 20 Sep, 14:00 | BTTS: No | 2.70 | pending |
 | 5 | [Everton v Ipswich](reports/matches/2026-09-19-EVE-IPS.md) | Sat 19 Sep, 15:00 | BTTS: No | 2.05 | **Won** (+£10.50) |
-| 6 | ~~Fulham v Man Utd, BTTS: No~~ | Sun 20 Sep, 16:30 | *dropped before placing* | — | — |
+| 6 | [~~Fulham v Man Utd, BTTS: No~~](reports/matches/2026-09-20-FUL-MUN.md) | Sun 20 Sep, 16:30 | *dropped before placing* | — | — |
 | 7 | [Leeds v Crystal Palace](reports/matches/2026-09-20-LEE-CRY.md) | Sun 20 Sep, 14:00 | BTTS: No | 2.05 | pending |
 | 8 | [Everton v Ipswich](reports/matches/2026-09-19-EVE-IPS.md) | Sat 19 Sep, 15:00 | Ipswich win | 4.20 | **Lost** (-£10) |
-| 9 | ~~Fulham v Man Utd, Fulham win~~ | Sun 20 Sep, 16:30 | *dropped before placing* | — | — |
+| 9 | [~~Fulham v Man Utd, Fulham win~~](reports/matches/2026-09-20-FUL-MUN.md) | Sun 20 Sep, 16:30 | *dropped before placing* | — | — |
 
 **Withdrawn as confirmed reasoning errors, not just flagged:**
 - Brighton v Arsenal, Brighton win + BTTS Yes — rested on "Arsenal's
@@ -113,6 +113,16 @@ got Leeds-Palace withdrawn outright. Everything else was placed.
   (Henderson), on top of a suspension, and Bet365's price is completely
   unchanged. Nothing in the confirmed team news makes the case for
   Palace stronger — decline reinforced, not just repeated.
+
+**Fulham v Man Utd (ranks 6 and 9), lineup check, ~1hr before the
+16:30 BST kick-off (last fixture of the gameweek):** confirmed lineups
+show no material team-news surprise for either side, and both edges
+recompute identically to their original values (+5.06pp, +3.40pp),
+still clearing the 3pp threshold on today's numbers — see
+[Fulham v Manchester United](reports/matches/2026-09-20-FUL-MUN.md).
+This doesn't reopen either pick: they were dropped for a confidence-
+ranking reason unrelated to team news or edge, and that decision
+stands unchanged.
 
 **How the withdrawals turned out.** Brighton beat Arsenal 3-0. The
 withdrawn Brighton win would have returned +£20; the withdrawn BTTS Yes
@@ -136,6 +146,14 @@ made money, in the same afternoon.
 
 Nine selections here across two gameweeks is still meaningful volume
 for a 20-bet book — a pattern worth watching, not yet a crisis.
+
+**Matchweek 5 picks are now finalised.** Every fixture this gameweek
+has either settled or had its pre-kick-off lineup check completed,
+including Fulham v Man Utd, the last kick-off of the week. Results for
+the still-pending fixtures (Bournemouth-Liverpool, Leeds-Palace,
+Man City-Sunderland) will follow as those matches conclude, settled
+against premierleague.com directly rather than a general fetch or
+search summary.
 
 ## Past weeks
 
