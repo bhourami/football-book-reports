@@ -1,111 +1,121 @@
-# ⚽ Football Book — Results
+# ⚽ Football Book
 
-Real-money Premier League picks from two independent analysts (Claude,
-Codex) plus whatever they agree on after debating. Not betting advice —
-see [Notice](NOTICE.md). How picks are actually made: [Process](PROCESS.md).
+Two AI analysts (Claude, Codex) price Premier League matches
+independently, then argue. Public in full — losses, errors and
+corrections included. Not betting advice — see [Notice](NOTICE.md).
+How it works: [Process](PROCESS.md).
 
-## Running total
+> **Reset, 21 September 2026.** The staking era is closed and archived.
+> It finished **£35.09 up** over 15 bets, and stopped anyway. Everything
+> below is the new regime: **no money is staked**, and the scoreboard is
+> no longer profit.
 
-Carried across every gameweek. Both real-money books started at £200.
-
-| Book | Real money? | Bank | Net so far | Bets settled |
-|---|---|---|---|---|
-| Codex solo | **Yes — actual stakes** | **£251.09** | **+£51.09** | 7 |
-| Conclusion (debated) | **Yes — actual stakes** | **£194.00** | **−£6.00** | 7 |
-| Claude solo | Tracked only, never staked | £204.25 if funded | +£4.25 | 6 on paper |
-| Cross-book accumulators | **Yes — actual stakes** | own pot | **−£10.00** | 1 |
-
-**Combined real money across all three pots: +£35.09.**
-
-> **Correction, 21 September 2026.** This line first read "−£10.00",
-> which was the accumulator pot's figure mistaken for the combined one.
-> The real combined position is **+£35.09**. It is now computed by
-> `scripts/totals.py` rather than typed, the same fix applied to the
-> per-book figures a day earlier.
-
-Codex's book is £51 up after a very good Sunday. That is 7 bets, and it
-should not be read as skill — see below.
-
-## Nothing is pending
-
-Matchweek 5 is settled and filed. **No picks are live, and none are
-scheduled.** The next Premier League fixtures are Matchweek 6 on 10–12
-October.
-
-## Why there are no new picks
-
-In September the forecasting model behind every pick on this page was
-fitted properly and tested the honest way — walked forward over **1,180
-matches**, never seeing a result before predicting it.
-
-It found **no edge over the closing line at any threshold.** It beat the
-closing price about 50% of the time, which is a coin flip. Under the
-live selection rule it would have staked £8,560 and lost £787.30, a
-−9.2% return. It selected **72.5% of available markets** — a method that
-finds edge in seven matches out of ten is disagreeing with the market at
-random, not finding value.
-
-**Both analysts independently recommended stopping staking under that
-rule.** That decision belongs to the owner and is still open.
-
-This page is kept public in full, losses and corrections included,
-because a betting record that only appears when it is winning is not a
-record.
-
-## The BTTS market is paused
-
-Flagged by the owner on 19 September: every both-teams-to-score pick
-across an entire gameweek came back "No". Checked rather than defended,
-and the pattern was real — each analyst's own "No" probability sat above
-the market's fair "No" probability, every single time. Not independent
-value-finds; a systematic skew.
-
-A fitted model then confirmed it is structural: predicted
-both-teams-to-score at 54.3% against a realised 58.1%, and 18.5
-percentage points wrong in exactly the bucket where "No" looks most
-tempting.
-
-All staked BTTS picks have now settled. The finished record:
+## The scoreboard is now closing line value
 
 | | |
 |---|---|
-| Settled BTTS selections | 16 |
-| Won | 8 |
-| Lost | 8 |
-| Of which "No" | **15 of 16** |
-| Net | +£26.59 |
+| Selections recorded | **0** |
+| Scored | 0 |
+| Median CLV | — |
+| Decision point | **60 selections** |
 
-**Eight and eight** — an exact coin flip, positive only because the
-winners came at longer prices than the losers. Man City 5-3 Sunderland,
-eight goals, is what it looks like when that lands badly on real money.
+Nothing has been recorded yet. Collection starts at Matchweek 6,
+10–12 October.
 
-The pause was questioned after three BTTS wins in a row over the
-weekend. Three wins is not evidence against a 1,180-match measurement,
-and *winning* is not the same as being *correctly priced*: a bet landing
-half the time at around 2.00 is break-even, not edged. **The pause
-stands.**
+### What that means
 
-## What happens next
+When a market closes, its price is the most accurate estimate anyone
+ever produces of what was actually going to happen — every bit of team
+news and every pound of informed money has gone in. Strip the
+bookmaker's margin out of that closing price and you have the best
+available measure of the truth.
 
-A [pre-registered experiment](https://github.com/bhourami/football-book/blob/main/spec/experiment-02-price-comparison.md)
-that uses **no forecasting model at all**, and no opinion about who will
-win. It asks one narrow question: does the bookmaker actually used ever
-offer a price better than the wider market's margin-adjusted consensus,
-and does it last long enough to place by hand?
+Closing line value is the gap between the price we called and that
+number. It is not a proxy for having an edge. **It is the edge**,
+expressed as expected value:
 
-The thresholds, the decision rule and the stopping rule were all written
-down **before any data was collected**, so they cannot be adjusted later
-to make a result look better. Returning **nothing** is the expected
-outcome, and all four conditions must pass to justify any real-money
-trial. If one fails, this project stops looking for edge in retail
-football betting.
+> **EV = fair closing probability × the price we called − 1**
 
-**No money is staked on anything arising from it.** Collection starts at
-Matchweek 6.
+A call with positive CLV makes money in the long run whether or not it
+wins. A call with negative CLV loses money in the long run however often
+it wins. Results are still recorded here, as facts — they are just not
+the score.
 
-## Past weeks
+### Why not profit
 
-- [Matchweek 5](reports/matchweek-5.md) — Codex solo **+£51.09**,
-  conclusion book **−£6.00**, BTTS finished level at 8-8
-- [Matchweek 4](reports/matchweek-4.md) — conclusion book **−£14**,
-  Codex solo +£8.75 on paper
+Because profit can't answer the question at this scale. Here are three
+real bets from the old era, measured against margin-removed closing
+prices:
+
+| Bet | Called at | Fair closing price | EV per £10 |
+|---|---|---|---|
+| Coventry v Brighton, Draw | 3.70 | 4.00 | **−£0.75** |
+| Leeds v Newcastle, Newcastle | 2.90 | 3.16 | **−£0.81** |
+| Man Utd v Man City, Man City | 2.15 | 2.33 | **−£0.78** |
+
+Every one expected to lose about 78p per £10 the moment it was placed.
+One of them won.
+
+Look at how close those three are. That is not luck — it is a stable
+property of the method, visible in **three** bets. The profit over
+fifteen bets was **+£35** and told us nothing at all. CLV converges in
+tens because it measures the price; profit needs hundreds because it
+measures coin flips.
+
+**The decision rule, fixed in advance:** after 60 selections, if median
+CLV is at or below zero, this method cannot price football better than
+the market and the project stops looking for edge. No extension, and no
+early stop because a run of results looks good.
+
+## Two other things changed
+
+**Prices are now referenced to a betting exchange, not a bookmaker.**
+A bookmaker builds 5–7% margin into the quoted price; an exchange
+charges commission on net winnings only. The same three calls above were
+worth **+7.0% on average** at Betfair — 3.90 instead of 3.70, 3.15
+instead of 2.90, 2.30 instead of 2.15. That is structural and needs no
+skill. It does not create an edge; it stops paying one away.
+
+**The competition stays the Premier League**, which was checked rather
+than assumed. Median bookmaker margin across full fixture lists:
+
+| League | Margin |
+|---|---|
+| Premier League | **7.34%** |
+| Championship | 8.28% |
+| League Two | 9.28% |
+
+Lower divisions are *more* expensive, not less. They are priced less
+accurately, but the bookmaker charges a wider margin precisely because
+it is less confident — so you would need to be about 2pp better than the
+market just to stand still.
+
+## The era that just closed
+
+| Book | Real money? | Final | Net | Bets |
+|---|---|---|---|---|
+| Codex solo | Yes | £251.09 | +£51.09 | 7 |
+| Conclusion (debated) | Yes | £194.00 | −£6.00 | 7 |
+| Cross-book accumulators | Yes | own pot | −£10.00 | 1 |
+| Claude solo | Never staked | — | +£4.25 paper | 6 |
+| **Combined** | | | **+£35.09** | **15** |
+
+It closed while **ahead**, on a rule written when the books were flat.
+That is the only circumstance in which a pre-commitment costs anything
+to honour, and therefore the only one in which honouring it proves
+anything.
+
+The reason: a model walked forward over **1,180 matches** beat the
+closing line about **50%** of the time — a coin flip — while selecting
+**72.5%** of available markets. A method that finds edge in seven
+matches out of ten is disagreeing with the market at random.
+
+**What it actually produced** was a record of how a confident method
+manufactures edge that isn't there. Three numbers in that era were
+*typed rather than derived* — a scoreline from a web fetch, the running
+totals, and the single positive CLV figure ever published here — and all
+three were wrong in the flattering direction. Every one is corrected in
+place, with the original wording shown.
+
+- [Matchweek 5](reports/matchweek-5.md) — Codex +£51.09, conclusion −£6.00, BTTS finished 8-8
+- [Matchweek 4](reports/matchweek-4.md) — conclusion −£14, and a corrected CLV claim
