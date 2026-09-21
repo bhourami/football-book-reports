@@ -15,7 +15,13 @@ Carried across every gameweek. Both real-money books started at £200.
 | Claude solo | Tracked only, never staked | £204.25 if funded | +£4.25 | 6 on paper |
 | Cross-book accumulators | **Yes — actual stakes** | own pot | **−£10.00** | 1 |
 
-**Combined real money staked to date: −£10.00 across all three pots.**
+**Combined real money across all three pots: +£35.09.**
+
+> **Correction, 21 September 2026.** This line first read "−£10.00",
+> which was the accumulator pot's figure mistaken for the combined one.
+> The real combined position is **+£35.09**. It is now computed by
+> `scripts/totals.py` rather than typed, the same fix applied to the
+> per-book figures a day earlier.
 
 Codex's book is £51 up after a very good Sunday. That is 7 bets, and it
 should not be read as skill — see below.
