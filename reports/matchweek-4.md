@@ -11,10 +11,27 @@
 | Leeds United v Newcastle | Newcastle win | 2.90 | **Lost** (Leeds won 4-1) | -£10 |
 | — accumulator, all three legs above | boosted 29.20/1 | **Lost** (dead once Draw lost) | -£10 |
 
-**Net for the gameweek: -£14.** One bet beat the closing price despite
-losing (Newcastle win, +1.2pp CLV) — a reminder that this project treats
-that as the primary signal, not the scoreline, since four bets can't
-separate skill from luck either way.
+**Net for the gameweek: -£14.**
+
+> **Correction, 21 September 2026.** This paragraph used to read: *"One
+> bet beat the closing price despite losing (Newcastle win, +1.2pp
+> CLV)"*. **That was wrong, and it was the only positive closing-line
+> figure this project has ever reported.**
+>
+> The Newcastle win was taken at 2.90. The ledger recorded a closing
+> price of 2.80, which no book quoted — checked against
+> football-data.co.uk, the market closed at **2.98** on average, 3.00 at
+> Bet365 and 3.15 at best. The price drifted *out*, meaning the price
+> obtained was **worse** than the close, not better. True CLV is
+> **−0.93pp** against the average and −2.74pp against best available.
+>
+> All three Matchweek 4 match-result positions in fact lost to the
+> close: −0.57pp, −0.93pp and −1.06pp, a mean of **−0.85pp**. Zero of
+> three beat it. The original 2.80 has no traceable source.
+>
+> This matters more than a rounding error. Closing line value is the
+> signal this project calls primary, and the one time it was reported
+> as positive, it was not measured against real data.
 
 \* Placed as a "2Up&Win – Early Payout" enhanced single (a mishap while
 placing bets, not a deliberate choice), a different product from the
