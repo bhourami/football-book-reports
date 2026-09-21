@@ -71,10 +71,34 @@ early stop because a run of results looks good.
 
 **Prices are now referenced to a betting exchange, not a bookmaker.**
 A bookmaker builds 5–7% margin into the quoted price; an exchange
-charges commission on net winnings only. The same three calls above were
-worth **+7.0% on average** at Betfair — 3.90 instead of 3.70, 3.15
-instead of 2.90, 2.30 instead of 2.15. That is structural and needs no
-skill. It does not create an edge; it stops paying one away.
+charges commission on net winnings only. The same three calls were worth
+better prices at Betfair — 3.90 instead of 3.70, 3.15 instead of 2.90,
+2.30 instead of 2.15.
+
+> **Corrected by Codex, 21 September 2026.** This section first said the
+> exchange takes the method "to roughly break-even". **That was wrong.**
+> Commission applies to net winnings, so the effective price is
+> `1 + (odds − 1) × (1 − commission)`, applied *before* computing EV.
+> Recomputed:
+>
+> | | Mean EV per bet |
+> |---|---|
+> | Bookmaker | −7.80% |
+> | Exchange at 2% commission | **−2.68%** |
+> | Exchange at 5% commission | **−4.64%** |
+>
+> The exchange recovers about 5 points and **stays negative**. It makes
+> the method lose less. It does not make it break even.
+>
+> This makes the problem harder, not easier: breaking even on the
+> exchange now requires demonstrated edge of at least **2.7 percentage
+> points** against the closing line, not zero.
+
+Codex predicted, without having seen Claude's position, that its likely
+error would be *"believing exchange pricing plus richer AI analysis
+closes the remaining gap"* — and then found exactly that error. Both
+answers and the reconciliation are in the
+[working repo](https://github.com/bhourami/football-book/tree/main/collaboration/debates/profitability-2026-09-21).
 
 **The competition stays the Premier League**, which was checked rather
 than assumed. Median bookmaker margin across full fixture lists:
